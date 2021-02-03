@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <!--Configuração do menu hamburguer--> 
+        <div class="hamburguer">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>Fechar</span>
+        </div>
+        <!--Início do cabeçalho-->
+        <header> 
+            <div class="img-wrapper">
+                <img src="imagens/image-header.jpg" alt="">
+            </div>
+            <div class="banner">
+                <h1>Auxiliar administrativo</h1>
+                <p>Hariadiny Kely Mantovam</p>
+                <a href="#"><button>Saiba mais</button></a>
+            </div> 
+        </header>
+        <aside class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Conhecimentos</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a href="https://twitter.com/login?lang=pt" target="_blanc"><i class="fab fa-twitter"></i> </a>
+                <a href="https://www.linkedin.com/in/hariadiny-mantovam-9317631bb/"target="_blanc"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/hariadiny-mantovam" target="_blanc"><i class="fab fa-github-alt"></i></a>
+            </div>
+        </aside>
+        <section class="sessao-conhecimentos">
+            <div class="sessao-header">
+                <h1>Conhecimentos e competências</h1>
+            </div>
+            <div class="conhecimentos">
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fa fa-calculator"></i>
+                        <h3>Contabilidade</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>
+                            <ul>
+                            <li>Procedimentos contabéis básicos e tributação;</li>
+                            <li>Demonstrações contabéis (BV, DRE, BP, DLPA, DFC, DVA);</li>
+                            <li>Análise e avaliação de desempenho.</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fa fa-comments"></i>
+                        <h3>Atendimento</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p><ul>
+                            <li>Atendimento telefônico e presencial;</li>
+                            <li>Agendamento de reuniões;</li>
+                            <li>Emissão de documentos, cadastramento e atualização.</li>
+                        </ul></p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fa fa-laptop"></i>
+                        <h3>Tecnologia</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p><ul>
+                            <li>Desenvolvimento de website;</li>
+                            <li>Gimp e Photoshop;</li>
+                            <li>Pacote Office Microsoft;</li>
+                            <li>Internet e hardware.</li>
+                        </ul></p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-github"></i>
+                        <h3>Git e GitHub</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>
+                            <ul>
+                                <li>Versionamento de dados;</li>
+                                <li>Repositórios de aprendizados e projetos.</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fa fa-briefcase"></i>
+                        <h3>Investimentos</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p><ul>
+                                <li>Certificado profissional ANBIMA CPA-10;</li>
+                                <li>Rendas váriaveis e rendas fixas.</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <img src="imagens/image-conhecimento.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sessao-contato">
+            <div class="contato-wrapper">
+                <div class="contato-left"></div>
+                <div class="contato-right">
+                    <h1>Contato</h1>
+                    <form>
+                        <div class="input-group">
+                            <input type="text" class="field" id="nome">
+                            <label for="nome" class="field-label">Nome</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="field" id="email">
+                            <label for="email" class="field-label">E-mail</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea class="field" id="mensagem"></textarea>
+                            <label for="mensagem" class="field-label">Mensagem</label>
+                        </div>
+                        <button class="btn-submit" type="submit">Enviar</button>
+                    </form>
+                </div>
+                
+            </div>
+            
+                
+                
+            
+        </section>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
